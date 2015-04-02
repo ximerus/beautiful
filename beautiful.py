@@ -2,16 +2,15 @@
 # -*- coding: utf-8 -*-
 
 def main():
-    print "Программа вычисления коэфициента женской красоты:"
+    print "Программа вычисления индекса женской красоты:"
     print "-------------------------------------------------"
-    breast = int(input("Введите обхват бюста:"))
-    hips = int(input("Введите обхват по бедрам:"))
-    waist = int(input("Введите обхват по талии:"))
-    growth = int(input("Введите рост:"))
-    weight = int(input("Введите вес:"))
+    breast = int(input("Введите обхват бюста: "))
+    hips = int(input("Введите обхват по бедрам: "))
+    waist = int(input("Введите обхват по талии: "))
+    growth = int(input("Введите рост: "))
+    weight = int(input("Введите вес: "))
     print"--------------------------------------------------"
-    print"Индекс женской красоты равен:"
-    print beauti(breast, hips, waist, growth, weight)
+    print"Индекс женской красоты равен: " +  beauti(breast, hips, waist, growth, weight)
 
 
 def beauti(breast, hips, waist, growth, weight):
