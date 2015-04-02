@@ -10,7 +10,7 @@ def main():
     growth = int(input("Введите рост: "))
     weight = int(input("Введите вес: "))
     print"--------------------------------------------------"
-    print"Индекс женской красоты равен: " +  beauti(breast, hips, waist, growth, weight)
+    print"Индекс женской красоты равен: " +  str(beauti(breast, hips, waist, growth, weight))
 
 
 def beauti(breast, hips, waist, growth, weight):
